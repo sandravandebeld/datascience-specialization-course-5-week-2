@@ -6,7 +6,7 @@ output:
 ---
 
 
-## Loading and preprocessing the data
+## Loading and preprocessing the data.
 
 ```r
 wd <- getwd()
@@ -47,7 +47,7 @@ summary(activity)
 ```
 
 ## What is mean total number of steps taken per day?
-### Calculate the total number of steps taken per day
+### Calculate the total number of steps taken per day.
 
 ```r
 steps_day <- aggregate(steps ~ date, activity, sum)
@@ -248,4 +248,5 @@ plot(steps_interval_weekend$interval, steps_interval_weekend$steps_complete, typ
 ```
 
 ![](PA1_template_af_files/figure-html/unnamed-chunk-10-2.png)<!-- -->
+
 

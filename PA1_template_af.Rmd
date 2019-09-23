@@ -89,3 +89,4 @@ steps_interval_weekend <- aggregate(steps_complete ~ interval, df_weekend, mean)
 plot(steps_interval_weekend$interval, steps_interval_weekend$steps_complete, type = "l", col = "red", main = "activity weekend")
 ```
 
+
